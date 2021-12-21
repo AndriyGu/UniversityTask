@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Persistence</ID>
+  <OriginalElement>JavaeeElement:/7bb814b9/entityManagerFactory/UniversityTest/jpa/JPA/PersistenceModel</OriginalElement>
+  <nodes>
+    <node x="133.5" y="603.0">Subject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Subject.java</node>
+    <node x="545.75" y="0.0">AbstractPersistable#jar://C:/Users/scanda/.m2/repository/org/springframework/data/spring-data-jpa/2.6.0/spring-data-jpa-2.6.0.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class</node>
+    <node x="537.0711009174312" y="616.5688073394497">StudentsToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/StudentsToSubject.java</node>
+    <node x="311.77064220183496" y="95.5596330275229">Student#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Student.java</node>
+    <node x="323.77752293577976" y="809.2385321100917">Professor#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Professor.java</node>
+    <node x="671.9059633027523" y="117.55963302752292">AbstractAuditable#jar://C:/Users/scanda/.m2/repository/org/springframework/data/spring-data-jpa/2.6.0/spring-data-jpa-2.6.0.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class</node>
+    <node x="246.5275229357798" y="306.0">Specialty#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Specialty.java</node>
+    <node x="-21.472477064220186" y="800.4128440366973">ClassRoom#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/ClassRoom.java</node>
+    <node x="303.77752293577976" y="703.908256880734">ProfessorsToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/ProfessorsToSubject.java</node>
+    <node x="217.5275229357798" y="438.0">SpecialtyToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/SpecialtyToSubject.java</node>
+    <node x="-26.972477064220186" y="671.0">Schedule#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Schedule.java</node>
+    <node x="33.99456521739131" y="243.3577981651376">Group#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Group.java</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Group#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Group.java" target="Student#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Student.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="85.99456521739131" y="148.0" />
+      <point x="376.27064220183496" y="148.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="SpecialtyToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/SpecialtyToSubject.java" target="Specialty#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Specialty.java" relationship="RELATION">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Specialty#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Specialty.java" target="Group#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Group.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="298.5275229357798" y="279.0" />
+      <point x="85.99456521739131" y="279.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="StudentsToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/StudentsToSubject.java" target="Subject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Subject.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="616.5711009174312" y="632.4495412844036" />
+      <point x="185.5" y="632.4495412844036" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="StudentsToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/StudentsToSubject.java" target="Student#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Student.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="571.6169724770642" y="616.5688073394497" />
+      <point x="571.6169724770642" y="642.0" />
+      <point x="634.5527522935781" y="642.0" />
+      <point x="634.5527522935781" y="148.0" />
+      <point x="376.27064220183496" y="148.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="ClassRoom#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/ClassRoom.java" target="Schedule#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Schedule.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="33.027522935779814" y="857.0" />
+      <point x="33.027522935779814" y="857.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="ProfessorsToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/ProfessorsToSubject.java" target="Professor#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Professor.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="Schedule#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Schedule.java" target="Group#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Group.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="33.027522935779814" y="723.0" />
+      <point x="52.97282608695653" y="723.0" />
+      <point x="52.97282608695653" y="279.0" />
+      <point x="85.99456521739131" y="279.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="AbstractAuditable#jar://C:/Users/scanda/.m2/repository/org/springframework/data/spring-data-jpa/2.6.0/spring-data-jpa-2.6.0.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class" target="AbstractPersistable#jar://C:/Users/scanda/.m2/repository/org/springframework/data/spring-data-jpa/2.6.0/spring-data-jpa-2.6.0.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class" relationship="INHERITANCE">
+      <point x="0.0" y="-39.0" />
+      <point x="753.9059633027523" y="81.0" />
+      <point x="626.75" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Schedule#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Schedule.java" target="Subject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Subject.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="33.027522935779814" y="733.0" />
+      <point x="185.5" y="733.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="ProfessorsToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/ProfessorsToSubject.java" target="Subject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Subject.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="388.27752293577976" y="713.0" />
+      <point x="214.27662544874346" y="713.0" />
+      <point x="28.77662544874346" y="37.67889908256893" />
+    </edge>
+    <edge source="Subject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/Subject.java" target="SpecialtyToSubject#file://C:/IdeaProjects/TestTasks/UniversityTest/src/main/java/com/example/UniversityTest/model/SpecialtyToSubject.java" relationship="RELATION">
+      <point x="0.0" y="-39.0" />
+      <point x="185.5" y="570.5" />
+      <point x="298.5275229357798" y="570.5" />
+      <point x="0.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7785714285714285" showDependencies="false" x="491.70781810929395" y="573.8532110091744" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Embeddables</Category>
+    <Category>Properties</Category>
+    <Category>Superclasses</Category>
+  </Categories>
+</Diagram>
+

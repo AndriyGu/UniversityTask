@@ -1,4 +1,4 @@
-package com.example.UniversityTest.model.DTO;
+package com.example.UniversityTest.model.DTO.respounseDTO;
 
 public class ScheduleInfDTO {
     private String nameSubject;

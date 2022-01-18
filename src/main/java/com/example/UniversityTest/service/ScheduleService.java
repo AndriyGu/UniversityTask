@@ -1,10 +1,10 @@
 package com.example.UniversityTest.service;
 
-import com.example.UniversityTest.controller.ScheduleController;
-import com.example.UniversityTest.model.DTO.ScheduleDTO;
-import com.example.UniversityTest.model.DTO.ScheduleInfDTO;
+import com.example.UniversityTest.model.DTO.respounseDTO.ScheduleDTO;
+import com.example.UniversityTest.model.DTO.respounseDTO.ScheduleInfDTO;
 import com.example.UniversityTest.model.Schedule;
 import com.example.UniversityTest.repository.ScheduleRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -12,16 +12,12 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ScheduleService {
 
+    @Autowired
     ScheduleRepository scheduleRepository;
-
-    public ScheduleService(ScheduleRepository scheduleRepository) {
-        this.scheduleRepository = scheduleRepository;
-    }
 
     public ResponseEntity<ScheduleDTO> getScheduleDataStudentName
             (String firstName, String lastName, LocalDate data) {
